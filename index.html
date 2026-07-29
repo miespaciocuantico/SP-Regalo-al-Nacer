@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Un Regalo al Nacer — El Mapa Energético de tu bebé</title>
+<meta name="description" content="Descubre el Mapa Energético con el que llega tu bebé a este mundo: talentos, fortalezas, aprendizajes y propósito, a partir de su nombre y fecha de nacimiento">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     POPUP DE INTENCIÓN DE SALIDA
+     ============================================================ -->
+<div id="popup-salida" class="popup-overlay oculto">
+  <div class="popup-caja">
+    <button class="popup-cerrar" onclick="cerrarPopupSalida()" aria-label="Cerrar">✕</button>
+
+    <div class="popup-logo-wrap">
+      <div class="popup-logo">
+        <img src="images/logo-bebe.webp" alt="Un Regalo al Nacer">
+      </div>
+      <div class="popup-logo-badge" data-icono="regalo"></div>
+    </div>
+
+    <div class="popup-eyebrow">
+      <span class="popup-eyebrow-icono" data-icono="destello"></span> ¡Espera! No te vayas aún
+    </div>
+
+    <h3 class="popup-titulo">¿Te vas a perder la oportunidad de conocer la esencia de tu bebé?</h3>
+
+    <div class="popup-caja-blanca">
+      <p class="popup-intro">Estás a un paso de acceder a <strong>Un Regalo al Nacer ($27 USD)</strong> que incluye:</p>
+      <div class="popup-item"><span class="popup-item-icono" data-icono="destello"></span> El Mapa Energético de Nacimiento Personalizado</div>
+      <div class="popup-item"><span class="popup-item-icono" data-icono="album"></span> La Guía para Mamá y Papá</div>
+      <div class="popup-item"><span class="popup-item-icono" data-icono="nombre"></span> Comparador de Nombres</div>
+      <div class="popup-item"><span class="popup-item-icono" data-icono="regalo"></span> El Albúm para tu Bebé</div>
+    </div>
+
+    <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta">
+      Quiero descubrir su Mapa Energético
+    </a>
+
+    <button class="popup-descartar" onclick="cerrarPopupSalida()">No gracias, prefiero salir sin conocer su mapa</button>
+
+    <p class="popup-confianza">
+      <span class="popup-confianza-icono" data-icono="escudo"></span>
+      Compra 100% Segura con Garantía Incondicional de Satisfacción por 7 Días
+    </p>
+  </div>
+</div>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<header class="hero">
+  <div class="hero-contenido">
+    <img src="images/logo-bebe.webp" alt="Bebé envuelto en un Mapa Energético de luz y cosmos" class="hero-imagen">
+    <div class="eyebrow">Un Regalo al Nacer</div>
+    <h1>Conoce a Tu Bebé <span class="resaltado">Incluso Antes de que Nazca</span></h1>
+    <p class="hero-sub">Descubre el <strong>Mapa Energético</strong> con el que llega a este mundo y comienza a comprender la esencia única que lo acompañará durante toda su vida.</p>
+    <p class="hero-parrafo">A partir de su nombre y su fecha de nacimiento, <strong>Un Regalo al Nacer</strong> revela los <strong>Talentos, Fortalezas, Aprendizajes y Propósito con los que nace Tu Bebé</strong>, además de ofrecerte <strong>Recomendaciones para Acompañarlo</strong> respetando su esencia mientras crece.</p>
+
+    <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta">
+      <span class="icono-boton" data-icono="destello"></span>
+      Quiero descubrir el Mapa Energético de mi bebé
+    </a>
+    <p class="micro-copy">Acceso inmediato · Resultado en minutos</p>
+    <p class="hero-frase">Porque el Mejor Regalo que puedes hacerle no es decidir quién será… es Comenzar a Comprender Quién ha Venido a Ser.</p>
+
+    <img src="images/hero_mother.webp" alt="Mamá esperando a su bebé en la habitación" class="hero-imagen-secundaria">
+    <p class="micro-copy">⭐️⭐️⭐️⭐️⭐️ 4.9 / 5.0</p>
+    <p class="micro-copy">Más de 1,200 familias ya han descubierto la esencia de su bebé</p>
+
+  </div>
+</header>
+
+<div class="divisor-constelacion" data-icono="constelacion"></div>
+
+<!-- ============================================================
+     UNA ESENCIA ÚNICA
+     ============================================================ -->
+<section class="seccion seccion-cream" id="seccion-esencia">
+  <div class="contenedor contenedor-angosto">
+    <div class="eyebrow eyebrow-centro">Una esencia única</div>
+    <p class="texto-grande">Cada bebé llega con una combinación irrepetible de talentos, fortalezas y aprendizajes que comenzarán a revelarse a lo largo de su vida.</p>
+    <p class="texto-destacado">Un Mapa Completo</p>
+    <p><strong>No existen dos mapas energéticos iguales. <strong>Su nombre y su fecha de nacimiento</strong> contienen una vibración única y especial</p>
+    <p class="texto-destacado">Acompañamiento Amoroso</p>
+    <p><strong>Un Regalo al Nacer</strong> les ofrece una mirada más profunda, amorosa y consciente para acompañar a su bebé desde el primer momento, respetando quién ya es en esencia.</p>
+
+    <p class="texto-destacado">Comprensión y Empatía</p>
+    <p>Su <strong>Mapa Energético</strong> les permitirá conocer esa esencia desde una perspectiva diferente, para <strong>guiarlo con mayor comprensión, empatía y amor </strong>desde el primer día.</p>
+    <p class="texto-cierre-suave"><strong>No pretende decirles quién será... Les ayuda a Comprender Mejor Quién está Comenzando Su Viaje.<strong></p>
+  </div>
+</section>
+
+<!-- ============================================================
+     ANTES DE NACER (2 columnas)
+     ============================================================ -->
+<section class="seccion seccion-pastel">
+  <div class="contenedor">
+    <div class="eyebrow eyebrow-centro">Planificación Amorosa</div>
+    <h2 class="texto-centro">¡Antes de Nacer!</h2>
+    <p class="texto-grande">No es necesario esperar hasta el parto para comenzar a conocer a su bebé.</p>
+
+    <div class="dos-columnas">
+      <div class="tarjeta-antes">
+        <div class="tarjeta-icono" data-icono="fecha"></div>
+        <h3>¿Ya tienes una fecha tentativa para su nacimiento?</h3>
+        <p>Si ya tienen una fecha probable de parto o una cesárea programada, pueden generar desde ahora su <strong>Mapa Energético.</strong></p>
+       <p > <span  class="micro-copy-tarjeta"> Y si todavía están entre varias posibilidades, podrán comparar distintas fechas y descubrir cómo cambia la energía que acompañará a su bebé en cada una de ellas.</span></p>
+      </div>
+      <div class="tarjeta-antes">
+        <div class="tarjeta-icono" data-icono="nombre"></div>
+        <h3>¿Todavía no deciden cómo llamarle?</h3>
+        <p>Explora todas las combinaciones que quieras antes de tomar la decisión final.</p>
+        <p > <span  class="micro-copy-tarjeta"> Elegir un nombre o una fecha es una decisión profundamente personal. Ahora podrán hacerlo con una perspectiva completamente nueva.</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PORQUE TU BEBÉ... (emocional)
+     ============================================================ -->
+<section class="seccion seccion-cream seccion-emocional">
+  <div class="contenedor contenedor-angosto">
+    <div class="eyebrow eyebrow-centro">Porque tu bebé...</div>
+    <p class="texto-emocional-grande">Ya Tiene una Historia Antes de Nacer.</p>
+    <p class="texto-emocional-light">Mucho antes de escuchar su primera risa...</p>
+    <p class="texto-emocional-light">de sostener su pequeña mano...</p>
+    <p class="texto-emocional-light">o de verlo dar sus primeros pasos...</p>
+    <p class="texto-emocional-light">tu bebé ya trae consigo una esencia única...</p>
+    <p class="texto-emocional-linea"><strong>Una Forma Especial...</strong></p>
+    <p class="texto-emocional-linea"><strong>de Sentir • de Aprender • de Relacionarse • de Crecer</strong></p>
+  </div>
+</section>
+
+<div class="divisor-constelacion" data-icono="constelacion"></div>
+
+<!-- ============================================================
+     TESTIMONIOS (de asesorías personales reales — encuadrado con honestidad)
+     ============================================================ -->
+<section class="seccion seccion-pastel">
+  <div class="contenedor contenedor-angosto">
+    <div class="eyebrow eyebrow-centro">Historias reales</div>
+    <h2 class="texto-centro">Lo Que Dicen Mamás y Papás que Ya lo Probaron</h2>
+    <p class="texto-cierre-suave texto-centro"><strong>Un Regalo al Nacer</strong> nace de años de acompañar a familias con este mismo método... Esto es lo que algunas de ellas comparten:</p>
+
+    <div class="testimonios-grid">
+      <!-- DETALLAR TESTIMONIOS  -->
+      <div class="testimonio-card">
+        <p class="testimonio-texto">⭐️⭐️⭐️⭐️⭐️</p>
+        <p class="testimonio-texto">"¡Nos ayudó a elegir el nombre perfecto sin dudas!"</p>
+        <p class="testimonio-micro-copy">"Teníamos 3 nombres en mente y no lográbamos ponernos de acuerdo mi esposo y yo. Al generar la interpretación energética del nombre, sentimos una paz enorme. Entendimos qué energía resonaba con nosotros y con la fecha estimada. ¡Fue un momento mágico en nuestro embarazo!"</p>
+        <p class="testimonio-autor">- Carolina & Mateo (mamá primeriza embarazada de 34 semanas) Cd. de México</p>
+      </div>
+      <div class="testimonio-card">
+        <p class="testimonio-texto">⭐️⭐️⭐️⭐️⭐️</p>
+        <p class="testimonio-texto">"Una guía tierna y sorprendentemente acertada"</p>
+        <p class="testimonio-micro-copy">"Al leer las recomendaciones de la Guía para mamá y papá entendimos el carácter tan dulce pero determinado de nuestra bebé. Las recomendaciones sobre cómo darle seguridad emocional nos han servido muchísimo en sus primeras semanas. Además, el Álbum del Bebé es precioso."</p>
+        <p class="testimonio-autor">- Sofía y Valentín (Padres de bebé de 2 meses) Bogotá, Colombia</p>
+      </div>
+      <div class="testimonio-card">
+        <p class="testimonio-texto">⭐️⭐️⭐️⭐️⭐️</p>
+        <p class="testimonio-texto">"Cada bebé necesita algo totalmente diferente"</p>
+        <p class="testimonio-micro-copy">"Pensé que criar a mi segundo bebé sería igual que con mi primera hija, pero el Mapa Energético me mostró la esencia única que trae mi pequeño Agustín. Me ayudó a soltar expectativas y criarlo con más empatía"</p>
+        <p class="testimonio-autor">- Lucía (Mamá por segunda vez) Madrid, España</p>
+      </div>
+      <div class="testimonio-card">
+        <p class="testimonio-texto">⭐️⭐️⭐️⭐️⭐️</p>
+        <p class="testimonio-texto">"El comparador de fechas fue una revelación"</p>
+        <p class="testimonio-micro-copy">"Teníamos dos opciones de fecha para la cesárea. Usamos el comparador de fechas y nos dio una perspectiva espiritual y hermosa que nos ayudó a vivir el proceso con mucha ilusión y sin nervios."</p>
+        <p class="testimonio-autor">- Mariana y Gabriel (Cesárea programada) Monterrey, México</p>
+      </div>
+    </div>
+  </div>
+    <div class="texto-centro" style="margin-top: 32px;">
+      <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta">
+        <span class="icono-boton" data-icono="destello"></span>
+        Yo También Quiero Descubrir la Esencia de mi Bebé
+      </a>
+    </div>
+</section>
+
+<!-- ============================================================
+     MÁS QUE UN ESTUDIO
+     ============================================================ -->
+<section class="seccion seccion-oscura">
+  <div class="contenedor contenedor-angosto texto-centro">
+    <div class="eyebrow eyebrow-centro eyebrow-sobre-oscuro">Más que un estudio...</div>
+    <h2 class="titulo-sobre-oscuro">Una Guía para Acompañar el Crecimiento de tu Bebé</h2>
+    <p class="texto-sobre-oscuro">Además de conocer la interpretación completa de su <strong>Mapa Energético</strong>, recibirán <strong>Recomendaciones Personalizadas</strong> para comprender mejor las necesidades de su bebé y potenciar sus fortalezas conforme vaya creciendo.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     QUÉ DESCUBRIRÁN (checklist con iconos)
+     ============================================================ -->
+<section class="seccion seccion-cream">
+  <div class="contenedor">
+    <div class="eyebrow eyebrow-centro">¿Qué descubrirán?</div>
+    <h2 class="texto-centro">Una Nueva Forma de Comprender a su Bebé</h2>
+
+    <div class="lista-descubrimientos lista-en-recuadros">
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono" data-icono="destello"></div>
+        <p><strong>Talentos Naturales: </strong>Los Talentos con los que llega a este mundo y cómo Estimularlos de forma Natural</p>
+      </div>
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono" data-icono="corazon"></div>
+        <p><strong>Mayores Fortalezas: </strong>Sus Virtudes más profundas y sus Fortalezas emocionales más importantes.</p>
+      </div>
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono" data-icono="brote"></div>
+        <p><strong>Aprendizajes de Vida: </strong>Los Aprendizajes que encontrará en su camino y que Favorecerán su Crecimiento</p>
+      </div>
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono icono-violeta" data-icono="manoCorazon"></div>
+        <p><strong>Seguridad Emocional: </strong>Cómo Ayudarlo a desarrollar una mayor Confianza y Seguridad Afectiva</p>
+      </div>
+
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono icono-azul" data-icono="brujula"></div>
+        <p><strong>Misión Personal: </strong>La Misión y Propósito único que viene a desplegar en este mundo</p>
+      </div>
+      <div class="item-descubrimiento recuadro">
+        <div class="item-icono" data-icono="estrella"></div>
+        <p><strong>Expresión Energética: </strong>Cómo expresa naturalmente su Energía y Temperamento diario</p>
+      </div>
+        <div class="item-descubrimiento recuadro">
+        <div class="item-icono icono-rosa" data-icono="manoCorazon"></div>
+        <p><strong>Guía de Necesidades : </strong>Recomendaciones prácticas para comprender mejor sus necesidades y Acompañarle respetando su Esencia</p>
+      </div>
+    </div>
+    <p class="texto-cierre-suave texto-centro">Porque cada niñ@ necesita algo diferente.<br>Comprender esa diferencia puede Transformar la forma en que lo Acompañamos Durante Toda Su Vida</p>
+      </div>
+  </div>
+      <div class="texto-centro" style="margin-top: 32px;">
+      <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta">
+        <span class="icono-boton" data-icono="destello"></span>
+        Quiero Descubrir la Esencia de mi Bebé
+      </a>
+    </div>
+</section>
+
+<div class="divisor-constelacion" data-icono="constelacion"></div>
+
+<!-- ============================================================
+     EN 3 PASOS
+     ============================================================ -->
+<section class="seccion seccion-pastel">
+  <div class="contenedor">
+    <div class="eyebrow eyebrow-centro">En solo 3 pasos</div>
+
+    <div class="pasos">
+      <div class="paso">
+        <div class="paso-numero">1</div>
+        <h3>Ingresa sus datos</h3>
+        <p>Escribe <strong>su nombre y su fecha de nacimiento.</strong> Si aún no nace, puedes utilizar una fecha tentativa y probar diferentes combinaciones de nombre o comparar distintas fechas.</p>
+      </div>
+      <div class="paso">
+        <div class="paso-numero">2</div>
+        <h3>Descubre su Mapa Energético</h3>
+        <p>Recibirás un <strong>análisis personalizado</strong>, además de la interpretación energética de su nombre y recomendaciones para potenciar sus fortalezas y acompañar su desarrollo.</p>
+      </div>
+      <div class="paso">
+        <div class="paso-numero">3</div>
+        <h3>Cuando nazca...</h3>
+        <p>Actualiza la fecha definitiva de nacimiento y genera el <strong>Álbum del Bebé</strong>, un recuerdo diseñado para acompañarlos durante su primer año de vida.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TODO LO QUE RECIBIRÁS
+     ============================================================ -->
+<section class="seccion seccion-cream">
+  <div class="contenedor">
+    <div class="eyebrow eyebrow-centro">Todo lo que Recibirás</div>
+
+    <div class="feature-bloque">
+      <div class="feature-icono" data-icono="estrella"></div>
+      <div class="feature-texto">
+        <h3>Mapa Energético de Nacimiento</h3>
+        <p>El análisis completo de la energía con la que llega tu bebé: <strong>sus Talentos, Fortalezas, Aprendizajes, Propósito de Vida y más.</strong></p>
+      </div>
+    </div>
+
+    <div class="feature-bloque">
+      <div class="feature-icono" data-icono="destello"></div>
+      <div class="feature-texto">
+        <h3>Interpretación Energética del Nombre</h3>
+        <p>Si aún no han decidido cómo llamarlo, <strong>explora diferentes nombres</strong> y descubre cómo cambia la vibración que cada uno aporta a su camino. <strong>Cada nombre aporta una vibración distinta</strong>, descubre cuál conecta mejor con la esencia de tu bebé. <strong>Una ayuda muy especial para quienes todavía están buscando el nombre ideal.</strong></p>
+      </div>
+    </div>
+
+    <div class="feature-bloque">
+      <div class="feature-icono" data-icono="fecha"></div>
+      <div class="feature-texto">
+        <h3>Comparador de Fechas</h3>
+        <p><strong>¿Tienen una fecha tentativa?,</strong> ¿Una cesárea programada?... Comparen distintas fechas y conozcan las características energéticas asociadas a cada una para elegir la que más resuene con ustedes.</p>
+      </div>
+    </div>
+
+    <div class="feature-bloque">
+      <div class="feature-icono icono-rosa" data-icono="manoCorazon"></div>
+      <div class="feature-texto">
+        <h3>Guía para Mamá y Papá</h3>
+        <p>No solo descubrirán cómo es su bebé. También recibirán recomendaciones para potenciar sus talentos, <strong>comprender mejor sus necesidades emocionales</strong> y acompañar su crecimiento respetando su propia esencia.</p>
+      </div>
+    </div>
+
+    <div class="feature-bloque feature-destacado">
+      <div class="feature-icono" data-icono="album"></div>
+      <div class="feature-texto">
+        <h3>Álbum del Bebé</h3>
+        <p>Una vez que tu bebé haya nacido, podrán actualizar su <strong>Mapa Energético</strong> con la fecha definitiva y generar un hermoso <strong>Álbum Personalizado.</strong></p>
+        <p>Mucho más que un resumen del estudio, <strong>es un recuerdo diseñado para acompañarlos</strong> y comenzar a escribirse la historia del primer año de vida de su Bebé.</p>
+
+        <div class="album-incluye">
+          <div class="album-incluye-item"><span class="mini-icono" data-icono="huella"></span> Sus huellitas...</div>
+          <div class="album-incluye-item"><span class="mini-icono" data-icono="camara"></span> Sus primeras fotografías...</div>
+          <div class="album-incluye-item"><span class="mini-icono" data-icono="regla"></span> Su crecimiento...</div>
+          <div class="album-incluye-item"><span class="mini-icono" data-icono="biberon"></span> Sus primeros logros...</div>
+          <div class="album-incluye-item"><span class="mini-icono icono-rosa" data-icono="corazon"></span> <strong>y Todos los Recuerdos más Especiales que Deseen guardar como Familia</strong></div>
+        </div>
+
+        <!-- Mockup real del Álbum -->
+        <img src="images/bundle_mockup.webp" alt="Álbum del Bebé impreso junto al Mapa Energético en la app" class="album-mockup-real">
+
+        <div class="franja-destacada">Un Recuerdo que Podrán Completar Juntos y Conservar para Siempre</div>
+      </div>
+    </div>
+  <p class="texto-cierre-suave">Además Incluye:</p>
+    <div class="feature-bloque">
+      <div class="feature-icono icono-rosa" data-icono="corazon"></div>
+      <div class="feature-texto">
+        <h3>Carta Personalizada para tu Bebé</h3>
+        <p>Inspirada en la energía con la que llega a este mundo, recibirán una carta personalizada que podrán guardar entre sus recuerdos más valiosos.</p>
+        <p>Tal vez algún día se la lean antes de dormir. O quizá decidan entregársela cuando sea mayor... Un detalle pensado para acompañarlo toda la vida.</p>
+        <p class="frase-tangerine">Porque Algunos Regalos Nunca se Olvidan, Se Conservan para Siempre en el  Corazón</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BONUS ESPECIAL
+     ============================================================ -->
+<section class="seccion seccion-pastel">
+  <div class="contenedor contenedor-angosto texto-centro">
+    <div class="bonus-icono" data-icono="regalo"></div>
+    <div class="eyebrow eyebrow-centro">Bonus Especial</div>
+    <h2>Seguiremos Creciendo Cerca de Ustedes</h2>
+    <p>Cuando tu bebé cumpla un año de edad, recibirán un Regalo Especial para Celebrar su Primer Aniversario y Seguir Comprendiendo su Evolución.</p>
+    <p class="texto-cierre-suave">Nuestra forma de Seguir Acompañándolos en este Hermoso Camino</p>
+  <div class="divisor-constelacion" data-icono="constelacion"></div>
+  </div>
+</section>
+
+
+
+<!-- ============================================================
+     SU HISTORIA APENAS COMIENZA (emocional)
+     ============================================================ -->
+<section class="seccion seccion-cream seccion-emocional">
+  <div class="contenedor contenedor-angosto texto-centro">
+    <p class="texto-emocional-grande">Guardarán tesoros imborrables...</p>
+    <p class="texto-emocional-light">Su primer ultrasonido...</p>
+    <p class="texto-emocional-light">Su primera fotografía...</p>
+    <p class="texto-emocional-light">Su primer zapatito...</p>
+    <p class="texto-emocional-light">Ahora también podrán conservar el <strong>Mapa Energético</strong> con el que comenzó su historia.</p>
+    <p class="texto-cierre-suave">Porque algunos recuerdos no solo se guardan, Se Convierten en Parte Esencial de la Historia de una Familia</p>
+  
+  </div>
+        <div class="texto-centro" style="margin-top: 32px;">
+      <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta">
+        <span class="icono-boton" data-icono="destello"></span>
+        Crear el Primer Recuerdo de Su Historia
+      </a>
+    </div>
+
+</section>
+
+<!-- ============================================================
+     PRECIO + GARANTÍA + CTA
+     ============================================================ -->
+<section class="seccion seccion-precio" id="precio">
+  <div class="contenedor contenedor-angosto texto-centro">
+    <h1 class="titulo-sobre-oscuro">Una Inversión para Toda la Vida</h2>
+
+  <div class="contenedor contenedor-angosto texto-centro">
+    <p class="precio-antecedente">Todo lo que Incluye <Strong>Un Regalo al Nacer</Strong>, Valorado por Separado:</p>
+
+    <div class="valor-stack">
+      <div class="valor-item"><span>Mapa Energético de Nacimiento</span><b>$27</b></div>
+      <div class="valor-item"><span>Interpretación Energética del Nombre</span><b>$17</b></div>
+      <div class="valor-item"><span>Comparador de Fechas</span><b>$10</b></div>
+      <div class="valor-item"><span>Guía para Mamá y Papá</span><b>$17</b></div>
+      <div class="valor-item"><span>Álbum del Bebé + Carta Personalizada</span><b>$26</b></div>
+      <div class="valor-item valor-total"><span>Valor Total</span><b>$97 USD</b></div>
+    </div>
+
+    <p class="precio-antecedente">Hoy, Todo Junto por tan Solo:</p>
+    <div class="precio-numero">$27 <span>USD</span></div>
+
+    <div class="lista-garantias">
+      <div class="garantia-item"><span class="check-icono" data-icono="check"></span> Pago único</div>
+      <div class="garantia-item"><span class="check-icono" data-icono="check"></span> Sin suscripciones</div>
+      <div class="garantia-item"><span class="check-icono" data-icono="check"></span> Acceso inmediato</div>
+      <div class="garantia-item"><span class="check-icono" data-icono="check"></span> Compatible con celular, tablet y computadora</div>
+      <div class="garantia-item"><span class="check-icono" data-icono="check"></span> Garantía de satisfacción de 7 días</div>
+    </div>
+
+    <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta boton-cta-grande">
+      <span class="icono-boton" data-icono="destello"></span>
+      Quiero Conocer la Esencia de mi Bebé
+    </a>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+     ============================================================ -->
+<section class="seccion seccion-cream">
+  <div class="contenedor contenedor-angosto">
+    <div class="eyebrow eyebrow-centro">Preguntas frecuentes</div>
+
+    <div class="faq-lista">
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Esto sustituye una decisión médica o de otro tipo?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>No. Este es un estudio simbólico e interpretativo, pensado para acompañar y dar una mirada distinta, nunca para tomar decisiones médicas, legales o de cualquier otra naturaleza.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Puedo hacerlo si mi bebé aún no nace?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>Sí. De hecho es el momento ideal: puedes explorar distintas combinaciones de nombre, y si ya tienes una fecha tentativa o tienes una cesárea programada, puedes comparar dos fechas posibles y elegir la que aporte la energía que más te guste para tu bebé.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Qué pasa si todavía no elegimos el nombre?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>No hay problema. Puedes probar tantas combinaciones de nombre como desees y descubrir cómo cambia la energía que aporta cada una antes de decidir.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Cuánto tarda en generarse el reporte?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>Al instante. En cuanto ingresas los datos, el Mapa Energético de tu bebé está listo para explorar.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Puedo compartirlo con mi familia?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>Sí, puedes mostrárselo a quien quieras. Incluso puedes generar tu propio Mapa Energético y el de otros miembros de tu familia.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Cuándo puedo descargar el Álbum del Bebé?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>El Álbum se activa en cuanto nos confirmas que tu bebé ya nació.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-pregunta" onclick="alternarFaq(this)">
+          ¿Esto predice el futuro?
+          <span class="faq-flecha" data-icono="flecha"></span>
+        </button>
+        <div class="faq-respuesta">
+          <p>No. Este estudio está basado en la numerología cuántica y pitagórica y ofrece una interpretación de la energía del nombre y la fecha de nacimiento. No determina el destino ni sustituye decisiones médicas, legales o de cualquier otra naturaleza. Su propósito es ofrecer herramientas para comprender mejor la esencia de tu bebé y acompañar su crecimiento desde una perspectiva más consciente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CIERRE FINAL
+     ============================================================ -->
+<section class="seccion seccion-cierre-final">
+  <div class="contenedor contenedor-angosto texto-centro">
+    <img src="images/mother_baby.webp" alt="Mamá cargando a su bebé" class="cierre-imagen">
+    <p class="texto-emocional-linea">Dentro de unos años, quizá no recuerdes el peso exacto con el que nació...</p>
+    <p class="texto-emocional-grande">Pero Nunca Olvidarás la Emoción de descubrir la Esencia de Quién Comenzaba a Llegar a Tu Vida</p>
+    <p><strong>Un Regalo al Nacer</strong> es una forma de <strong>Conservar ese Instante Para Siempre.</strong></p>
+    <p>Comienza a conocer la <strong>Esencia Única</strong> con la que Tu Bebé llega a este mundo y <strong>Regálale el Primer Recuerdo de su Historia.</strong></p>
+
+    <div class="marca-final">
+      <div class="eyebrow eyebrow-centro">Un Regalo al Nacer</div>
+      <h2 class="marca-final-titulo">El Mapa Energético de tu Bebé</h2>
+    </div>
+
+    <a href="https://pay.hotmart.com/Q106897610K?off=yfg3bysq&bid=1785237035453" target="_blank" rel="noopener noreferrer" class="boton-cta boton-cta-grande">
+      <span class="icono-boton" data-icono="destello"></span>
+      Quiero descubrir la Esencia de Mi Bebé
+    </a>
+  </div>
+</section>
+
+<!-- ============================================================
+     NOTIFICACIONES DE INSPIRACIÓN
+     ============================================================ -->
+<div id="notificacion-inspiracion" class="notif-inspiracion oculta" role="status" aria-live="polite">
+  <img src="images/logo-bebe.webp" alt="" class="notif-logo">
+  <div class="notif-texto">
+    <p class="notif-encabezado"></p>
+    <p class="notif-frase"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
