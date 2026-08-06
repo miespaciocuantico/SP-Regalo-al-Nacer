@@ -26,7 +26,11 @@
   --sombra: rgba(91, 75, 120, 0.14);
 }
 
-* { box-sizing: border-box; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
@@ -37,7 +41,13 @@ body {
 }
 h1, h2, h3 { font-family: 'Lilita One', sans-serif;  font-weight: 200; line-height: 1.25; margin: 0 0 0.5em; color: var(--medianoche); }
 p {font-weight: 500; line-height: 1.65; margin: 0 0 1em; }
-img { max-width: 100%; display: block; }
+img,
+video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 a { text-decoration: none; }
 
 .contenedor { max-width: 960px; margin: 0 auto; padding: 0 24px; align-items: center;}
@@ -87,6 +97,13 @@ a { text-decoration: none; }
 
 /* ---------- BOTONES CTA ---------- */
 .boton-cta {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 420px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  padding-left: 20px;
+  padding-right: 20px;
   display: inline-flex; align-items: center; justify-content: center; gap: 10px;
   background: var(--dorado); color: #fff;
   font-family: 'Montserrat', sans-serif; font-weight: 750; font-size: 16px;
@@ -542,6 +559,16 @@ a { text-decoration: none; }
 .producto-real-ancha img { aspect-ratio: 16 / 8; }
 .frase-respiro-visual { margin-top: 36px; }
 
+.demo-video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  object-fit: contain;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
 @media (max-width: 780px) {
   .hero-grid, .antes-despues-grid, .demo-card, .producto-real-grid { grid-template-columns: 1fr; }
   .hero-optimizado { text-align: center; }
@@ -559,4 +586,10 @@ a { text-decoration: none; }
   .transform-card, .demo-card { padding: 20px; }
   .demo-media { min-height: 220px; }
   .frase-respiro strong { font-size: 25px; }
+  .boton-cta {
+  max-width: 100%;
+  width: 100%;
+  font-size: 14px;
+  padding: 16px 14px;
+}
 }
