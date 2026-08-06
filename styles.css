@@ -78,7 +78,7 @@ a { text-decoration: none; }
 }
 .hero-contenido { max-width: 540px; margin: 0 auto; }
 .hero-imagen {
-  width: 50px; height: 50px;
+  width: 30px; height: 30px;
   border-radius: 50%;
   margin: 0 auto 10px;
   filter: drop-shadow(0 0 28px rgba(201, 162, 75, 0.35));
