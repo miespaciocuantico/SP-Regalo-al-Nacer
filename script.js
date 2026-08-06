@@ -60,6 +60,7 @@ document.addEventListener('mouseleave', (evento) => {
   if (evento.clientY <= 0) mostrarPopupSalida();
 });
 
+
 /* ---------- NOTIFICACIONES DE INSPIRACIÓN ---------- */
 const FRASES_INSPIRACION = [
   { encabezado: "Natalia de Barcelona, España", frase: "Acaba de comprar Un Regalo al Nacer" },
