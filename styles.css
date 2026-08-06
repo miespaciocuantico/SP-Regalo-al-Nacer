@@ -559,14 +559,15 @@ a { text-decoration: none; }
 .producto-real-ancha img { aspect-ratio: 16 / 8; }
 .frase-respiro-visual { margin-top: 36px; }
 
-.demo-video {
+.demo-gif {
   display: block;
   width: 100%;
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
   border-radius: 18px;
   object-fit: contain;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 12px 35px rgba(58, 50, 81, 0.12);
 }
 
 @media (max-width: 780px) {
